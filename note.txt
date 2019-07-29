@@ -1,0 +1,1 @@
+icpc -I/home/zlintsai/src/uni10/include -L/home/zlintsai/src/uni10/lib -m64 -O3 -Wall -qopenmp -pthread -std=c++11 -DUNI_CPU -DUNI_LAPACK -DUNI_MKL hello_uni10.cpp -o job.exe -luni10
